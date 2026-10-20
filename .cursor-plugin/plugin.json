@@ -1,0 +1,24 @@
+{
+  "name": "scaledpapers",
+  "displayName": "ScaledPapers",
+  "version": "1.0.0",
+  "description": "Create checks, a status page, incidents, and maintenance from the editor.",
+  "author": {
+    "name": "ScaledPapers"
+  },
+  "homepage": "https://scaledpapers.com",
+  "repository": "https://github.com/ScaledPapers/skills",
+  "license": "MIT",
+  "keywords": ["monitoring", "status-page", "uptime", "mcp"],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "SP_API_KEY": {
+        "type": "string",
+        "title": "API key",
+        "description": "Workspace API key from https://scaledpapers.com/app/api-keys. Starts with sp_."
+      }
+    },
+    "required": ["SP_API_KEY"]
+  }
+}

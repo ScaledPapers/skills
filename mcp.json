@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "scaledpapers": {
+      "url": "https://api.scaledpapers.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${SP_API_KEY}"
+      }
+    }
+  }
+}
