@@ -1,11 +1,18 @@
 ---
 name: scaledpapers
-description: "ScaledPapers monitors a website or API with uptime checks and a public status page. Use when the user asks to monitor a health URL, set up a status page, open an incident, or schedule maintenance."
+description: "Uptime checks and a public status page for a website or API. Use when the user asks to monitor a health URL, see if a site is down, set up a status page, open an incident, or schedule maintenance."
 ---
 
 # ScaledPapers
 
-ScaledPapers runs uptime checks (HTTP, API, DNS, and TCP) and publishes a status page for the same workspace. An agent can also open incidents and schedule maintenance. Official setup: https://scaledpapers.com/agent-setup/prompt.md. Human guide: https://scaledpapers.com/docs/mcp.
+Uptime checks and a public status page for a website or API.
+
+- HTTP, API, DNS, and TCP checks on the health URLs the user names
+- A status page in the same workspace
+- Incidents and maintenance windows
+- Subscriber email only when the user asks
+
+Setup for an agent: https://scaledpapers.com/agent-setup/prompt.md. Human guide: https://scaledpapers.com/docs/mcp.
 
 ## Install
 

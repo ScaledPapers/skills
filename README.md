@@ -1,6 +1,6 @@
 # ScaledPapers skill
 
-[ScaledPapers](https://scaledpapers.com) monitors a website or API with uptime checks and a public status page. This skill lets a coding agent create those checks, open incidents, and schedule maintenance.
+Uptime checks and a public status page for a website or API. This skill lets a coding agent create those checks, open incidents, and schedule maintenance. [ScaledPapers](https://scaledpapers.com).
 
 The server is `https://api.scaledpapers.com/mcp`. It uses a workspace API key (`SP_API_KEY`), not OAuth. Create the key at https://scaledpapers.com/app/api-keys. Setup steps: https://scaledpapers.com/docs/mcp.
 

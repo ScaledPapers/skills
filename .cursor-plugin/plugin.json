@@ -2,7 +2,7 @@
   "name": "scaledpapers",
   "displayName": "ScaledPapers",
   "version": "1.0.0",
-  "description": "Create checks, a status page, incidents, and maintenance from the editor.",
+  "description": "Uptime checks and a public status page for a website or API.",
   "author": {
     "name": "ScaledPapers"
   },
