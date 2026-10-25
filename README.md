@@ -1,6 +1,6 @@
 # ScaledPapers skill
 
-Uptime checks and a public status page for a website or API. This skill lets a coding agent create those checks, open incidents, and schedule maintenance. [ScaledPapers](https://scaledpapers.com).
+A website check is up when the HTTP status is below 500. An API check is up on 200 unless another code is set. DNS is up when the lookup succeeds. TCP is up when the connection succeeds, or when it fails if that was the expected outcome. The same workspace publishes a status page, opens incidents, and schedules maintenance. [ScaledPapers](https://scaledpapers.com).
 
 The server is `https://api.scaledpapers.com/mcp`. It uses a workspace API key (`SP_API_KEY`), not OAuth. Create the key at https://scaledpapers.com/app/api-keys. Setup steps: https://scaledpapers.com/docs/mcp.
 

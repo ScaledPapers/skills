@@ -5,12 +5,9 @@ description: "Uptime checks and a public status page for a website or API. Use w
 
 # ScaledPapers
 
-Uptime checks and a public status page for a website or API.
+ScaledPapers probes a website, API, DNS name, or TCP host. A website check is up when the HTTP status is below 500. An API check is up on 200 unless the user set another code. A DNS check is up when the lookup succeeds. A TCP check is up when the connection succeeds, or when it fails if the user asked for that. Timeouts and other failures count as down.
 
-- HTTP, API, DNS, and TCP checks on the health URLs the user names
-- A status page in the same workspace
-- Incidents and maintenance windows
-- Subscriber email only when the user asks
+The same workspace publishes a status page, opens incidents, and schedules maintenance. Subscriber email goes out only when the user asks.
 
 Setup for an agent: https://scaledpapers.com/agent-setup/prompt.md. Human guide: https://scaledpapers.com/docs/mcp.
 
