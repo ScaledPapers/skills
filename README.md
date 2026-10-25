@@ -7,16 +7,16 @@ The server is `https://api.scaledpapers.com/mcp`. It uses a workspace API key (`
 ## Install the skill
 
 ```bash
-npx skills add ScaledPapers/skills --skill scaledpapers -a claude-code -a codex -g -y
+npx skills add ScaledPapers/skills --skill uptime-status-page -a claude-code -a codex -g -y
 ```
 
 Then wire MCP (reads `SP_API_KEY` from the environment when tools run):
 
 ```bash
-bash ~/.agents/skills/scaledpapers/scripts/wire-mcp.sh codex
+bash ~/.agents/skills/uptime-status-page/scripts/wire-mcp.sh codex
 ```
 
-Use `cursor`, `claude`, or `all` instead of `codex`. Catalog: https://www.skills.sh/scaledpapers/skills/scaledpapers
+Use `cursor`, `claude`, or `all` instead of `codex`. Catalog: https://www.skills.sh/scaledpapers/skills/uptime-status-page
 
 ## Cursor Marketplace
 

@@ -1,5 +1,5 @@
 ---
-name: scaledpapers
+name: uptime-status-page
 description: "Uptime checks and a public status page for a website or API. Use when the user asks to monitor a health URL, see if a site is down, set up a status page, open an incident, or schedule maintenance."
 ---
 
@@ -14,7 +14,7 @@ Setup for an agent: https://scaledpapers.com/agent-setup/prompt.md. Human guide:
 ## Install
 
 ```bash
-npx skills add ScaledPapers/skills --skill scaledpapers -a claude-code -a codex -g -y
+npx skills add ScaledPapers/skills --skill uptime-status-page -a claude-code -a codex -g -y
 ```
 
 ## Connect
@@ -27,10 +27,10 @@ npx skills add ScaledPapers/skills --skill scaledpapers -a claude-code -a codex 
 bash scripts/wire-mcp.sh cursor   # or claude, codex, all
 ```
 
-If the skill lives under `~/.agents/skills/scaledpapers`, you can run:
+If the skill lives under `~/.agents/skills/uptime-status-page`, you can run:
 
 ```bash
-bash ~/.agents/skills/scaledpapers/scripts/wire-mcp.sh codex
+bash ~/.agents/skills/uptime-status-page/scripts/wire-mcp.sh codex
 ```
 
 4. Call `usage` before creating a check or a page. Stop when a cap is reached. A 401 means the key is missing or revoked. Ask for a new key. Do not create checks during this check.
